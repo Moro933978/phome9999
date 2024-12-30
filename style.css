@@ -1,0 +1,339 @@
+@media (max-width: 768px) {
+    .port{
+        max-width: 90%;
+        max-height: 50%;
+    }
+    
+    body{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .sssssssssss{
+        display: inline-flex;
+        font-size: 18px;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .back-end{
+        max-width: 350px;
+        max-height: 200px;
+    }
+
+    .front-end{
+        max-width: 350px;
+        max-height: 200px;
+    }
+
+    a{
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    .port{
+        max-width: 90%;
+        max-height: 30%;
+    }
+    
+    .sssssssssss{
+        display: inline-flex;
+        font-size: 15px;
+    }
+
+    body{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .back-end{
+        max-width: 200px;
+        max-height: 100px;
+    }
+
+    .front-end{
+        max-width: 200px;
+        max-height: 100px;
+    }
+
+    a{
+        display: block;
+    }
+}
+
+.header{
+    position: fixed;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;    
+    margin-right: auto;
+    top: 0;
+    z-index: 1032;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background: linear-gradient(#300ada,#97069c);
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    font-family: "Roboto", serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+h5{
+    visibility: visible;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+a:hover{
+    font-size: 22px;
+}
+
+.solve{
+    visibility: hidden;
+}
+
+button a{
+    visibility: visible;
+}
+
+.front-end{
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    transition-property: all;
+    transition-timing-function: linear;
+    border-radius: 16px;
+}
+
+.front-end:hover{
+    margin: 8px;
+}
+
+.sssssssssss{
+    margin: 0;
+    display: block;
+}
+
+hr{
+    padding: 1px;
+    background-color: black;
+    border-radius: 20px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+.back-end{
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    transition-duration: 0.5s;
+    border-radius: 16px;
+    transition-delay: 0.2s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+.back-end:hover{
+    margin: 8px;
+}
+
+article{
+    padding: 6px;
+    margin: 6px;
+}
+
+b{
+    visibility: hidden;
+}
+
+.port-img{
+    border-radius: 100%;
+}
+
+div .support{
+    cursor: pointer;
+    background-color: rgb(5, 19, 13);
+    font-size: xx-large;
+}
+
+.port{
+    background: linear-gradient(#348f50, #7156d3); 
+    width: 440px;
+    border-radius: 10px;
+    box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.521);
+    height: auto;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.port:hover{
+    box-shadow: 40px 60px 60px rgba(0, 0, 0, 0.562);
+    height: auto;
+    width: 450px;
+}
+
+.html{
+    text-decoration: none;
+    padding: 10px;
+    margin: 14px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 94, 0);
+    width: fit-content;
+    border-radius: 8px;
+    font-size: 40px;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease;
+    text-align: center;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.466);
+}
+
+.html:hover{
+    font-size: 45px;
+    margin: 14px;
+}
+
+.css{
+    text-decoration: none;
+    padding: 10px;
+    margin: 14px;
+    background-color: rgb(255, 255, 255);
+    color: #0011ff;
+    width: fit-content;
+    border-radius: 8px;
+    font-size: 40px;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease;
+    text-align: center;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.466);
+}
+
+.css:hover{
+    font-size: 45px;
+    margin: 14px;
+}
+
+.js{
+    text-decoration: none;
+    padding: 10px;
+    margin: 14px;
+    background-color: rgb(255, 255, 255);
+    color: yellow;
+    width: fit-content;
+    border-radius: 8px;
+    font-size: 40px;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease;
+    text-align: center;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.466);
+}
+
+.js:hover{
+    font-size: 45px;
+    margin: 14px;
+}
+
+.python{
+    text-decoration: none;
+    padding: 10px;
+    margin: 14px;
+    background-color: rgb(255, 255, 255);
+    color: #0400ff;
+    width: fit-content;
+    border-radius: 8px;
+    font-size: 40px;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease;
+    text-align: center;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.466);
+}
+
+.python:hover{
+    font-size: 45px;
+    margin: 14px;
+}
+
+.c{
+    text-decoration: none;
+    padding: 10px;
+    margin: 14px;
+    background-color: rgb(255, 255, 255);
+    color: #6200ff;
+    width: fit-content;
+    border-radius: 8px;
+    font-size: 40px;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease;
+    text-align: center;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.466);
+}
+
+.c:hover{
+    font-size: 45px;
+    margin: 14px;
+}
+
+.java{
+    text-decoration: none;
+    padding: 10px;
+    margin: 14px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 94, 0);
+    width: fit-content;
+    border-radius: 8px;
+    font-size: 40px;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease;
+    text-align: center;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.466);
+}
+
+.java:hover{
+    font-size: 45px;
+    margin: 14px;
+}
